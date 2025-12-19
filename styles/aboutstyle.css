@@ -1,0 +1,17 @@
+@import "./styles.css";
+
+.hero .flex {
+  flex-direction: row-reverse;
+  height: auto;
+}
+.about-message {
+  width: 300px;
+}
+.sloka{
+  min-width: 0;
+  min-height: 0;
+}
+
+
+
+
