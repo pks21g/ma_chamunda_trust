@@ -64,11 +64,12 @@ header.container-fluid{
     right: 0;
     top: 0;
     height: 100vh;
-    width: 60vw;
-    padding: 20px;
+    width: 100vw;
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
-    opacity: 0.8;
+    align-items: center;
+    opacity: 0.9;
   }
   .ham-menu {
     position: relative;

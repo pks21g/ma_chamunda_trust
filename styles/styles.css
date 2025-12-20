@@ -17,6 +17,7 @@
 #hero-video > video {
   width: 100%;
   object-fit: cover;
+  pointer-events: none;
 }
 
 .hero-btn {
@@ -58,8 +59,9 @@ footer {
   align-items: center;
   justify-content: center;
   z-index: 100;
-  gap: 30px;
+  /* gap: 30px; */
   /* padding:0 20px; */
+  margin:20px 0;
 }
 .footer-nav-overlay {
   position: absolute;
@@ -70,27 +72,28 @@ footer {
   background-color: rgba(2, 2, 2, 0.1);
 }
 
-.social-options {
-  display: flex;
-  flex-direction: row;
-  gap:10px;
-
-}
 .contact-options a,
 .social-options a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 .footer-logo {
-  height: 170px;
-  width: 170px;
+  height: 250px;
+  width: 250px;
 }
 .foot-logo img {
   height: 100%;
   width: 100%;
 }
+.contact, .social{
+  text-align: center;
+}
 
-.copyright{
+.contact-options, .social-options{
+  text-align: center;
+}
+
+.copyright {
   background-color: black;
   height: 100px;
   color: #fff;
@@ -98,7 +101,26 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.copyright .fa-copyright{
+.copyright .fa-copyright {
   color: rgb(249, 2, 2);
+}
 
+@media (min-width: 389.98px) and (max-width: 991px) {
+  header.container-fluid {
+    height: 140px;
+  }
+  .nav-bar h4 {
+    font-size: 1.1rem;
+  }
+  .foot-nav{
+    justify-content: center;
+    align-items: center;
+  }
+  .contact, .social{
+    text-align: center;
+  }
+
+  .contact-options, .social-options{
+    text-align: center;
+  }
 }
