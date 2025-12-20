@@ -20,11 +20,12 @@ FILE: index.html
     <link rel="icon" type="image/x-icon" href="./assets/favicon.svg" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/utilities.css">
   </head>
 <!-- head end -->
 
   <!-- body section -->
-  <body class="container-fluid">
+  <body>
 
     <!-- header section -->
     <header class="container-fluid">
@@ -67,15 +68,17 @@ FILE: index.html
       <video autoplay muted loop id="hero-video">
         <source src="./assets/hero.mp4" type="video/mp4">
       </video>
+      <div class="hero-btn">
+      <a href="#" class="btn">Upcoming Projects</a>
+    </div>
     </section>
-    <section>
+    <section class="container-fluid">
         <div class="d-grid justify-content-center">
           <div class="donation m-2">
             <div class="donation-message">
               <h4>Various ways you can make a difference</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-                laboriosam.
+                Even a tiny effort can make a huge difference. Be kind and be proud of yourself!
               </p>
             </div>
             <div class="donation-button outline">
@@ -87,8 +90,7 @@ FILE: index.html
               <h4>Check out what we offer in our community</h4>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-                laboriosam.
+                We offer various free educational programs in our community.<br>Check out our programs!
               </p>
             </div>
             <div class="programs-button outline">
