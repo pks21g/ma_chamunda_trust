@@ -122,6 +122,11 @@
   opacity: 0.2;
 }
 
+.facebook {
+  color: green;
+  font-size: 3rem;
+}
+
 @media (min-width: 389.98px) {
   .hero {
     margin: 100px auto;
