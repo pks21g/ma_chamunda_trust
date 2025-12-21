@@ -58,6 +58,7 @@ header.container-fluid{
     position: absolute;
     background-color: bisque;
     display: none;
+    z-index: 100;
   }
   .navigation-items.active {
     position: absolute;
