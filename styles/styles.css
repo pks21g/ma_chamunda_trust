@@ -22,6 +22,7 @@
 
 .hero-btn {
   position: absolute;
+  -webkit-appearance: none;
   bottom: 30%;
   left: 30%;
   transform: translate(-30%, -30%);
