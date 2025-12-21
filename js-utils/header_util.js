@@ -7,3 +7,6 @@ ham.addEventListener("click", () => {
   ham.classList.toggle("active");
 });
 
+var speedUpVideo = document.querySelector('video');
+speedUpVideo.playbackRate = 10.0;
+

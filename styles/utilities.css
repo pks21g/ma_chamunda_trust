@@ -10,8 +10,17 @@
 
 body {
   background: var(--red-light);
+  /* background: linear-gradient(#faa2b0 9%, #fa96a5 25%, #f8aeb9 40%, #4c4c4c 100%); */
 }
-
+.section-gap-lg {
+  margin-top: 152px;
+}
+.section-gap-lg-bt {
+  margin-bottom: 152px;
+}
+.section-gap-sm {
+  margin-top: 80px;
+}
 img {
   width: 100%;
   object-fit: cover;
