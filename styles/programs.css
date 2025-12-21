@@ -1,0 +1,46 @@
+
+img{
+  width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.programs-hero-image{
+  position: relative;
+  width: 320px;
+  height:100px;
+}
+
+.programs-hero-image img{
+  width:210px;
+}
+
+.english-image{
+  width:170px;
+  margin: auto;
+}
+
+.english-image img{
+  transform: skewY(10deg);
+}
+
+.computer-image{
+  width:100px;
+  margin-left:75%;
+}
+
+.computer-image img {
+  width:100%;
+  object-fit: contain;
+  transform: skewX(-10deg);
+  transform: scaleX(-1);
+}
+
+.skill-development-image{
+  width:150px;
+  margin: 0;
+}
+
+.skill-development-image img{
+  transform: skewX(-20deg);  
+}
