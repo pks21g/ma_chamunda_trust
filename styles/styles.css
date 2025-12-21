@@ -1,3 +1,13 @@
+.section-gap-lg {
+  margin-top: 152px;
+}
+.section-gap-lg-bt {
+  margin-bottom: 152px;
+}
+.section-gap-sm {
+  margin-top: 40px;
+}
+
 .hero-section {
   position: relative;
   height: calc(100vh - 100px); /* Adjust height as needed */
@@ -46,6 +56,31 @@
   box-shadow: 1px 1px 1px black;
   width: 198px;
 }
+.hero-image {
+  position: relative;
+  z-index: -10;
+  bottom: -5rem;
+  opacity: 0.9;
+}
+
+.programs{
+  position: relative;
+  bottom:-40px;
+}
+.user-action {
+  background: linear-gradient(#faa2b0 9%, #fa96a5 25%, #f8aeb9 40%, #4c4c4c 100%);
+  width: fit-content;
+  margin: auto;
+  padding: 40px;
+  gap: 80px;
+  border: none;
+  border-radius: 4px;
+  outline: .1px solid #fadcdc;
+  box-shadow: 1px 1px 1px rgb(242, 178, 188, .1) inset;
+}
+.community{
+  color: red;
+}
 footer {
   position: relative;
   /* height: 400px; */
@@ -55,14 +90,15 @@ footer {
 .foot-nav {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 100;
-  /* gap: 30px; */
-  /* padding:0 20px; */
-  margin:20px 0;
+  gap: 30px;
+  padding: 20px 0;
+  padding-top: 60px;
+  margin: 20px 0;
 }
 .footer-nav-overlay {
   position: absolute;
@@ -86,12 +122,19 @@ footer {
   height: 100%;
   width: 100%;
 }
-.contact, .social{
+.contact,
+.social {
   text-align: center;
 }
 
-.contact-options, .social-options{
-  text-align: center;
+.contact-options,
+.social-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  gap: 20px;
 }
 
 .copyright {
@@ -106,6 +149,11 @@ footer {
   color: rgb(249, 2, 2);
 }
 
+.books {
+  position: absolute;
+  bottom: 50%;
+}
+
 @media (min-width: 389.98px) and (max-width: 991px) {
   header.container-fluid {
     height: 140px;
@@ -113,15 +161,21 @@ footer {
   .nav-bar h4 {
     font-size: 1.1rem;
   }
-  .foot-nav{
+  .foot-nav {
     justify-content: center;
     align-items: center;
+    gap: 40px;
   }
-  .contact, .social{
+  .contact,
+  .social {
     text-align: center;
+    /* margin-top: 20px; */
   }
 
-  .contact-options, .social-options{
+  .contact-options {
+    gap: 40px;
     text-align: center;
   }
 }
+
+
