@@ -195,6 +195,12 @@ footer {
   position: absolute;
   bottom: 50%;
 }
+.yt-sub{
+  position: fixed;
+  top:50%;
+  right:20px;
+  z-index: 99999;
+}
 
 @media (min-width: 319.98px) and (max-width: 991px) {
   header.container-fluid {

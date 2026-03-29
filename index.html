@@ -22,6 +22,7 @@ FILE: index.html
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/utilities.css">
+    <link rel="stylesheet" href="styles/popup.css">
   </head>
 <!-- head end -->
 
@@ -67,6 +68,18 @@ FILE: index.html
     </header>
     <!-- end of header section -->
 
+    <!-- pop-up section -->
+    <div id="popupOverlay">
+      <div class="overlay"></div>
+      <div id="popupBox">
+        <div id="dragHandle">
+          <img src="assets/stage-banner.png" alt="Watch Videos">
+          <h3>Watch Saraswati Mata Talent Contest Videos</h3>
+          <a href="https://youtube.com/@machamundatrust" class="popup-btn">Watch Now</a>
+        <span id="closePopup">&times;</span>
+        </div>
+      </div>
+    </div>
     <!-- hero section  -->
     <section class="hero-section">
       <div class="hero-section-overlay"></div>
@@ -193,6 +206,9 @@ FILE: index.html
           </div>
         </div>
       </div>
+      <!-- <div class="yt-sub">
+        <div class="g-ytsubscribe" data-channelid="UCPMtGGl9yMWV_vZfRCYDzcw" data-layout="default" data-theme="dark" data-count="default"></div>
+      </div> -->
     </section>
     <footer class="section-gap-lg">
       <div class="footer-nav-overlay"></div>
@@ -249,5 +265,7 @@ FILE: index.html
     </section>
     <script src="js-utils/header_util.js"></script>
     <script src="js-utils/getHamburger.js"></script>
+    <script src="js-utils/popup.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
   </body>
 </html>
