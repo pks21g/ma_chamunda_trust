@@ -1,67 +1,39 @@
-.banner{
-  display: flex;
-  flex-direction: column;
-  /* width: 100%; */
-  /* max-width: 420px; */
-  text-align: center;
-  margin: auto;
-  /* gap: 30px; */
-  
-}
-.banner h2{
-  margin-top: 100px;
-}
+
 .courses-container{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap; 
-  margin-top: 50px;
   gap:50px;
+  justify-content: center;
+}
+.courses-section{
+  background-color: aliceblue;
+  padding:4px 15px;
+  /* box-shadow: 1px -4px 10px rgba(0,0,0,.2); */
+  border-radius: 10px;
+}
+.courses-section h2{
+  margin-bottom: 50px;
+  border-bottom: .1rem solid grey;
+  padding-bottom: 10px;
+}
+.courses{
+  display: flex;
+  justify-content: space-between;
 }
 .course{
-  width: 800px;
+  background-color: rgb(248, 225, 231);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(255, 255, 255, .1);
-  text-align: center;
   gap:20px;
-  padding:20px;
+  padding: 20px 10px;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgba(0,0,0,.1);
 }
-.course a {
-  border: .1em solid rgb(253, 222, 222);
-  text-decoration: none;
-  padding: 10px 10px;
-  color:rgb(116, 116, 116);
-  background-color: transparent;
-  /* margin-right: 10px; */
-  border-radius: 3px;
-  transition: transform .4s ease-in;
-  text-transform: uppercase;
-  font-weight: bold;
-  /* margin-top: 3px; */
+.whatsapp-contact a{
+  color:rgb(51, 51, 51);
+  font-size: 30px;
+  transform:scale(1);
+  transition: transform 0.4s ease-in-out;
 }
-
-.course a:hover{
-  background-color: transparent;
-  border:.1em solid rgba(248, 188, 215, 0.683);
-  color:white;
-  font-weight: bold;
-  transform: scale(.9);
-}
-.yt-video{
-  border-radius: 10px;
-  
-}
-@media screen and (max-width:900px){
-  .yt-video{
-    width: 100%;
-  }
-
-  .course-container{
-    /* margin:auto; */
-  }
+.whatsapp-contact a:hover{
+  color:rgb(0, 155, 70);
+  transform:scale(.8);
 }
