@@ -1,41 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- header section -->
-  <header class="container-fluid">
-    <div class="nav-bar container">
-      <img
-        class="logo"
-        src="assets/logo.svg"
-        height="200px"
-        width="200px"
-        alt="Website Logo"
-      />
-      <h4 class="slogan">
-        न चोरहार्यं न च राजहार्यं न भ्रातृभाज्यम् न च भारकारी ।<br />
-        व्यये कृते वर्धत एव नित्यं विद्याधनं सर्वधनप्रधानम् ॥
-      </h4>
-    </div>
-    <nav class="navigation">
-      <a href="#"> <img src="assets/brandname.svg" alt="" /> </a>
-      <ul class="navigation-items id=navigation-items">
-        <li class="navigation-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="navigation-item">
-          <a href="programs.html">Programs</a>
-        </li>
-        <li class="navigation-item">
-          <a href="about.html">About</a>
-        </li>
-        <li class="navigation-item">
-          <a href="about.html">Contact</a>
-        </li>
-      </ul>
-      <div class="ham-menu">
-        <img src="assets/hamburger.svg" id="menu-icon" alt="" />
-      </div>
-    </nav>
-  </header>
+
   <!-- end of header section --><!-- head section -->
   <head>
     <meta charset="UTF-8" />
@@ -62,17 +28,119 @@
   </head>
   <!-- head end -->
   <body>
+    <header class="container-fluid">
+      <div class="nav-bar container">
+        <img
+          class="logo"
+          src="assets/logo.svg"
+          height="200px"
+          width="200px"
+          alt="Website Logo"
+        />
+        <h4 class="slogan">
+          न चोरहार्यं न च राजहार्यं न भ्रातृभाज्यम् न च भारकारी ।<br />
+          व्यये कृते वर्धत एव नित्यं विद्याधनं सर्वधनप्रधानम् ॥
+        </h4>
+      </div>
+      <nav class="navigation">
+        <a href="#"> <img src="assets/brandname.svg" alt="" /> </a>
+        <ul class="navigation-items id=navigation-items">
+          <li class="navigation-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="navigation-item">
+            <a href="programs.html">Programs</a>
+          </li>
+          <li class="navigation-item">
+            <a href="contest.html">Contest</a>
+          </li>
+          <li class="navigation-item">
+            <a href="courses.html">Courses</a>
+          </li>
+          <li class="navigation-item">
+            <a href="about.html">About</a>
+          </li>
+          <li class="navigation-item">
+            <a href="" id="contact">Contact</a>
+          </li>
+        </ul>
+        <div class="ham-menu">
+          <img src="assets/hamburger.svg" id="menu-icon" alt="" />
+        </div>
+      </nav>
+    </header>
     <section class="container">
       <div class="projects">
         <div class="shadow projects-text">
           <h1>Projects coming soon</h1>
-          <p><em>Please check back later<span>!</span></em></p>
+          <p>
+            <em>Please check back later<span>!</span></em>
+          </p>
         </div>
       </div>
     </section>
     <section class="container section-gap-lg">
       <div class="blank"></div>
     </section>
+    <div id="contact-banner" class="">
+      <div class="">
+        <div class="banner-a">
+          <div class="logo-a">
+            <img src="assets/logo.svg" alt="" />
+          </div>
+          <div class="contact">
+            <h3>Contact Us</h3>
+            <div class="contact-options">
+              <a href="https://wa.me/message/HL2DMKGTMVYXM1" target="_blank">
+                <i class="fa-brands fa-whatsapp fa-xl"></i>
+              </a>
+              <a href="tel:+91-895-560-2645">
+                <i class="fa-solid fa-phone fa-xl"></i>
+              </a>
+              <a href="mailto:handshake@machamunda.org">
+                <i class="fa-solid fa-message fa-xl"></i>
+              </a>
+            </div>
+          </div>
+          <div class="social">
+            <h3>Follow US</h3>
+            <div class="social-options">
+              <a
+                href="https://chat.whatsapp.com/Cje3vqog0e92TJqPOn8Y68"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp fa-xl"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61586216987239"
+                target="_blank"
+                class="social"
+              >
+                <i class="fa-brands fa-facebook fa-xl"></i>
+              </a>
+              <a
+                href="https://instagram.com/machamundatrust/"
+                target="_blank"
+                class="social"
+              >
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
+              <a href="https://x.com/machamundatrust" target="_blank">
+                <i class="fa-brands fa-x-twitter fa-xl"></i>
+              </a>
+              <a
+                href="https://youtube.com/@machamundatrust"
+                target="_blank"
+                class="social"
+              >
+                <i class="fa-brands fa-youtube fa-xl"></i>
+              </a>
+            </div>
+          </div>
+          <div id="cl">X</div>
+        </div>
+      </div>
+    </div>
     <footer class="section-gap-lg">
       <div class="footer-nav-overlay"></div>
       <div class="container-fluid">
@@ -125,5 +193,6 @@
     </footer>
     <script src="js-utils/header_util.js"></script>
     <script src="js-utils/getHamburger.js"></script>
+    <script src="js-utils/contact.js"></script>
   </body>
 </html>

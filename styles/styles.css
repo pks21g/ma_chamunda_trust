@@ -201,7 +201,46 @@ footer {
   right: 20px;
   z-index: 99999;
 }
-
+#contact-banner {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  z-index: 9999999;
+  display: none;
+  background-color: rgba(146, 146, 145, .3);
+}
+.show {
+  display: flex;
+  width: 100%;
+}
+.banner-a {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 0, 0, .6);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  animation: slideUp .7s ease-in;
+}
+.logo-a {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+#cl {
+  position: absolute;
+  right:10px;
+  top:10px;
+  font-size: 40px;
+  cursor: pointer;
+}
 
 @media (min-width: 319.98px) and (max-width: 991px) {
   header.container-fluid {
